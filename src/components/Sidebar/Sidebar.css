@@ -1,0 +1,36 @@
+.sidebar {
+  width: 7vw;
+  background-color: #f7f7fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 35vh;
+  padding-bottom: 48vh;
+  padding-top: 5vh;
+}
+
+.active {
+  position: relative;
+}
+
+.active div::after {
+  content: "";
+}
+
+.active div {
+  position: absolute;
+  height: 64px;
+  left: -30px;
+  top: -10px;
+  border: 2px solid black;
+}
+
+.sidebar img {
+  padding: 10px;
+}
+
+.sidebar img:hover {
+  cursor: pointer;
+  background-color: rgba(41, 40, 40, 0.219);
+}

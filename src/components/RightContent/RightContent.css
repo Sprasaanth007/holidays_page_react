@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.right-content {
+  flex: 0.8;
+  padding: 30px 2vw 50px 2vw;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.year {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.year p,
+.holidays p {
+  color: #90919b;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto";
+}
+
+.sub-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-heading h3 {
+  color: #232326;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.sub-heading-right p {
+  color: #fea101;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  font-family: "Roboto";
+}
+
+.modal__backdrop {
+  background: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.modal__container {
+  background: #fff;
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 50px;
+  width: 700px;
+}
+
+.modal__title {
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: medium;
+  margin-bottom: 5rem;
+  color: #151b30;
+}
+
+.left {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #90919b;
+  padding: 10px;
+}
+.left input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #90919b !important;
+  margin-bottom: 5rem;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: medium;
+  color: #151b30;
+}
+
+.left input:focus {
+  border-bottom: 2px solid #405cd2 !important;
+}
+
+.right {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+button {
+  background: #40d2ac;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  transition: transform 100ms ease-out;
+}
+button:hover {
+  background: #35bd98;
+  transform: scale(1.08);
+}
+
+.drag-drop {
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 2px dashed #bbbbbf;
+  border-radius: 10px;
+  color: #bbbbbf;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

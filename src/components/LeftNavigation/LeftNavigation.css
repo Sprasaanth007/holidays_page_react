@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.left-navigation {
+  flex: 0.2;
+}
+
+.left-navigation h3 {
+  text-align: left;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  letter-spacing: 0px;
+  color: #232326;
+  opacity: 1;
+  padding: 20px 2vw 20px 3vw;
+  margin: 20px 30px 20px 35px;
+}
+
+.left-navigation h3:hover {
+  cursor: pointer;
+  background-color: #e1e6ff;
+  border-radius: 8px;
+}
+
+.active-h3 {
+  color: #405cd2 !important;
+  background-color: #e1e6ff;
+  border-radius: 8px;
+}
